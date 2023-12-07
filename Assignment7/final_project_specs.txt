@@ -1,0 +1,35 @@
+1. Create a Python program that:
+
+a. helps you to accomplish a linguistic task related to your area of interest
+b. requires you to draw on programming skills learned in this class
+c. but also, importantly, stretches your programming ability
+d. contains detailed comments
+
+2. Post a screencast video:
+
+a. 8-10 minute oral presentation of your project with:
+
+i. a clear explanation of the linguistic problem or question you set out to answer and your reason for doing so (one slide)
+ii. a clear explanation of the logic of your program and the data structures and functions used (one slide)
+iii. an explanation of the challenges you faced and the stretching that your programming skills had to go through in order to complete the project (one slide)
+iv. a short explanation of the (main) result of your project; how can the research question be answered or the problem solved? (one slide)
+
+3. Turn into the CMS:
+
+a. Your Python script or scripts (one or more .py files)
+b. Relevant output from your program (if it cannot be reproduced by the script)
+c. 900-1,200 word write-up that addresses at least the following:
+
+i. What did you set out to accomplish and why?
+ii. What were the various steps you took to accomplish your goal?
+iii. What challenges did you run into and how did you overcome them?
+iv. What have you learned in this class that (a) helped you with your final project and (b) will/might help you in your future?
+v. Include a word count at the end of the document.
+
+There is no final exam in this class. Rather, we will use the final exam period for students to post a video or narrated PowerPoint to the CMS (see schedule for due date) and for students to watch and respond to at least 5 presentations of classmates.
+
+Write a 500-700 word proposal for your final project. Answer at least the following questions:
+1. What do you want to accomplish and why? How will this help you develop the programming skills you might need in the future?
+2. What data will you use?
+3. What is your plan to carry out this project? How will you get the data? How will you accomplish the programming tasks? How will you ensure and measure accuracy?
+4. What programming skills and Python data structures will you need for this project?

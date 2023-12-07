@@ -1,0 +1,65 @@
+Physical Count
+- MD: { will:6, can:3, may:3, should:2, must:1}
+-- Total: 15
+- PRP: { you:21, i:4 }
+-- Total: 25
+- CD: { numerics:28, one:3, seven:3,  nine:2, third:1 }
+-- Total: 37
+
+Precision
+- MD:
+-- 1
+- PRP:
+-- 0.93
+- CD
+-- 0.925
+
+Recall
+- MD:
+-- 1
+- PRP:
+-- 1
+- CD
+-- 1
+
+Key:
+HI: How-to/Instructional
+ID: Interactive Discussion
+IN: Informational (Wikipedia)
+IP: Informational Persuasion
+LY: Song Lyrics
+NA: News reports
+OP: Opinion blogs
+SP: Interview transcripts
+
+Hypotheses:
+- My hypothesis for the genre with the most amount of Modal Verbs is either Opinion Blogs or Interview Transcripts because of
+- the high potential for hypothetical situations.
+- And for the least amount of Modal Verbs are either Informational (Wikipedia) and How-to/Instructional due to the direct nature
+- of their communication.
+
+- My hypothesis for the genres with the most Personal Pronouns are Song Lyrics, News Reports, and Opinion Blogs
+- because of the personable statements and songs are often written about other people, as are opinion blogs. Also, the news reports
+- are directed at other people and reporters tend to use a lot of pronouns when describing a story.
+- And for the least amount, there's the Interactive Discussion and Interview Transcripts. This is under the assumption
+- that every one in the group is on a name basis with each other, thus reducing the amount of pronouns.
+
+- My hypothesis for the genres with the most Cardinal Numbers are How-to/Instructional and News Reports because of the exact
+- language required in the instructional reports would often necessitate using numbers. Similarly, news reports often
+- give numbers as part of their report.
+- And for the least amount, Interview Transcripts and Interactive Discussion, due to the lack of being numerically specific
+- when talking in general.
+
+Conclusions:
+- The highest two genres for Modal Verbs are How-to/Instructional, with a 18.223455933379597 per 1000 words, and
+- Interactive Discussion, with a 16.856134849078792 per 1000 words. This didn't match my expectations at all.
+
+- The highest two genres for Personal Pronouns are Song Lyrics, with a 121.69825156023398 per 1000 words, and
+- Interview Transcripts, with a 88.71800892228222 per 1000 words. The song lyrics make sense with how people centered they
+- can be. However, I'm shocked with the Interview Transcripts because I thought the interviewers would know the interviewee
+- on a name basis
+
+- The highest two genres for Cardinal Numbers are Informational (Wikipedia), with a 50.35006358209042 per 1000 words,
+- and Informational Persuasion, with a 24.501731272696563 per 1000 words. These didn't match up exactly with what I
+- thought would happen. I thought that the instructional type would use exact numbers and same with News Reports, which came
+- in as third for highest word count per 1000 words.

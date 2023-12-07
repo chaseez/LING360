@@ -1,0 +1,20 @@
+ScrapeSimple
+Turn any website into a CSV without coding
+ScrapeSimple is a service that builds web
+scrapers and periodically emails you a CSV with the information you
+need
+Here's how it works
+Create a spec
+We will work with you to create a detailed spec, with every detail of
+the sites you need scraped, a schedule for delivering the
+information, and a timeline for getting the job done.
+Wait 1-2 Weeks
+We pride ourselves on quick turnarounds. For all but the largest
+jobs, we can get scrapers up and running within 1-2 weeks. During
+this period, we continue to work with you to make sure we are
+getting the exact data and formatting you require.
+A CSV in your inbox
+Once our crawlers are set up, you will periodically receive the data
+in CSV format in your inbox. We take care of any ongoing maintenance,
+so you will always get the data
+you need on time.

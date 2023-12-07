@@ -1,0 +1,55 @@
+For the "HI" topics in across the 3 registers, here are the top 5 noun bi-grams:
+
+JA_HI:
+world history,14
+time discipline,5
+tel aviv,4
+jin yi,4
+john paul,4
+
+PS_HI:
+world war,4
+status quo,4
+communist party,3
+home front,3
+virus infection,3
+
+TB_HI:
+world war,5
+temple mount,4
+tae choyong,3
+word æmassacreæ,3
+tang china,2
+
+In each list there is the word "world". Also, and words that are typically historical, like communist and China
+
+For the "BI" topics across the 3 registers, here are the top 5 noun bi-grams:
+
+JA_BI:
+et al,14
+turkey p,6
+fig s,6
+motor neuron,6
+mass loss,6
+
+PS_BI:
+homo erectus,5
+fossil record,3
+ground level,2
+rain forest,2
+world war,2
+
+TB_BI:
+et al,4
+body size,4
+water quality,4
+cell wall,4
+cell body,3
+
+I think it's funny that et al is in the top 5 of two different registers, showing that whoever created this files cites their sources.
+
+Also, report the precision and recall measurements in the sample of the corpus you chose.
+
+For the file "JA_BI_01.txt"
+Precision = 1.00
+Recall = 0.96

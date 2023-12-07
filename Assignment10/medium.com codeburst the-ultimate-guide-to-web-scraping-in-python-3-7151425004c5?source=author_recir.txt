@@ -1,0 +1,48 @@
+The Ultimate Guide to Web Scraping in Python 3
+Web scraping is becoming more and more central to the jobs of developers as the open web continues to grow. In this article, I’ll be explaining how and why web scraping methods are used in the data gathering process, with easy to follow examples using Python 3. First, we’ll be scraping a list of comment links from the front page of Hacker News, and then we’ll grab the links and the name of the top commenter from each page. After that, we will scrape a JavaScript version of the page, and we’ll see why and how these two are different.
+So let’s start…
+First things first, we’ll need to install a few essential libraries.
+The five packages we’ll need are requests, bs4, re, time, and selenium. re and time should come packaged already with your installation of Python 3.
+This is done by typing in pip install requests bs4 selenium in your terminal.
+You will also need to install the Chrome webdriver which can be found here. Make sure you check that you have the correct version, and instructions are on the website.
+Now we will start scraping the Hacker News front page!
+The first thing we need to do in any Python project is to import the libraries we need.
+So let’s make our first page request, by getting Python to download the page data into a variable by using requests.get():
+In order to parse the variable into readable HTML, we’ll use BeautifulSoup.
+We use BeautifulSoup because it parses the HTML correctly, and makes it look like this:
+Now that we have the HTML, we can use some Regex magic to grab the links to the discussion threads.
+If we use Chrome Devtools, right clicking on the comments link and selecting ‘inspect’, we can see that the code for the link includes an ID number:
+If we go to the actual site and hover over each comment thread link, we can see that the links are in a common format, which is https://news.ycombinator.com/item?id= + the ID link. What we can do then is make a regular expression to find the ID and then use it to search through our page data for all the IDs:
+But this gives us a bit of a problem. If we look at the results, we actually have 120 results, when we only have 30 links to scrape!
+The reason is, if you look at the code, the ID actually comes up 3 times if we use that regular expression. Now, we could solve this by converting our list into a set and back into a list, but looking at the HTML we could also just another part of the code that only appears once per list. In this example, I’ll use vote?id=(\d+)&amp instead:
+Which comes up with a much better result:
+Now that we have the IDs and we know the format of the links, we can easily combine the two with a quick loop:
+And we have our list of links to the top 30 threads on Hacker News!
+Now that we have the thread links, we will get Python to scrape each page for the link and the name of the first commenter. Let’s just start with one page first.
+First, I got Python to just grab the first link in the list:
+Using Chrome DevTools, we can see that the link we want to scrape is coded as:
+So we can write our regular expression and then put the result into a variable:
+Easy!
+Next, we need the top commenter.
+When we look through Chrome DevTools, we can see that user IDs are tagged as “user?id=[userID]”
+So all we need to do is get our regular expression set up and then grab all the user IDs off the page:
+If we look at the actual page, we can see that the OP is actually the first user ID that shows up, which means that the top commenter’s ID will be the second ID in our list, so to get that we can use
+Easy!
+Now, to put this all together we will need to loop everything so it gives us all the results automatically.
+First, let’s make a function from our previous code to scrape the threads and return our results into a list:
+And then make the loop to scrape the results
+Were you wondering why I asked you to import time in the beginning? Well, most sites will block multiple fast requests especially just to stop you from spamming their servers with scraping requests (it’s also just impolite to overload other people’s servers with requests).
+Now, when we run the code, we have a complete list of the links and first commenters in our results variable!
+Ok so now that we’ve gone through a standard HTML page, let’s try again with a JavaScript page.
+Hmm, but what’s this? When we look at our jspagedataclean variable, there’s nothing in there
+That’s because the page relies on JavaScript to load the data, and the requests module isn’t able to load it.
+This is where the Selenium headless browser comes in.
+Let’s start again from the beginning by importing all the modules we need.
+We’ll launch the browser and direct it to the site
+Now we can load the page code in BeautifulSoup and repeat the process
+We can quickly create our regular expressions by copying the outerHTML of the code
+And use the same method to create our link list
+Note that the regular expressions and URLs are different.
+And then, just like before, we use Chrome DevTools to find the information we need and create a function to scrape the page
+Additional Resources
+And that’s it. Using these methods, you’ll be able to scrape pretty much any website, even if it’s using JavaScript! Here are a few additional resources that you may find helpful during your web scraping journey:

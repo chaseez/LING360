@@ -1,0 +1,28 @@
+Precision recall for the formal settings:
+- Contractions
+- - Precision = 1.0
+- - Recall = 1.0
+- Modal Verbs
+- - Precision = 1.0
+- - Recall = 1.0
+- Pronouns
+- - Precision = 1.0
+- - Reacll = 0.86
+
+Precision recall for the informal settings:
+- Contractions
+- - Precision = 1.0
+- - Recall = 1.0
+- Modal Verbs
+- - Precision = 1.0
+- - Recall = 0.8
+- Pronouns
+- - Precision = 1.0
+- - Reacll = 1.0
+
+
+Please forgive the language in the informal dataset, I was looking through reddit and this was the first thing that cought my eye.
+In terms of analysis, it makes sense why there are more pronouns in informal because this type of language is often
+directed at someone, so more pronouns are used. Also, the modal verb count were the same! For contractions, also, it makes
+sense why there are more in informal settings because it doesn't seem fitting to always put contractions in formal settings,
+plus it adds to word count too.

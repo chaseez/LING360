@@ -1,0 +1,17 @@
+Medium members can listen to any Medium story with the Speechify Play Button.
+Medium members can listen to any Medium story with the Speechify Play Button.
+At Medium and Speechify, we’re always exploring new ways to make content more accessible. That’s why we’re excited to share that Speechify is available to all Medium members with the launch of Medium’s Listen feature. Any Medium member can click the “Listen” button at the top of most stories to hear an audio version read aloud from a number of narrators. Users who aren’t Medium members will be invited to sign up for membership.
+Since the launch of our partnership, Medium members have told us that audio has helped them consume more stories than ever before – up to three times as many. Audio helps people listen to Medium articles during the day when they normally wouldn’t be reading: while going on walks, commuting, exercising, doing chores, doing other things on their computer, or even as they fall asleep.
+We’ve also heard many members tell us they retain information better when they have a chance to listen and read at the same time. This is a new way of consuming content that our partnership supports – Speechify highlights text as it reads the audio out loud to you.
+“When working out, I used to read on my phone between sets. Now, it’s so much easier with audio — I can listen to many more articles than I could read before.” — Jess, Medium listener
+From everything we’ve heard, we believe the Speechify play button on Medium can make your experience with Medium more enjoyable and flexible.
+A Magical Way to Read More
+If you love reading, you probably have a long list of articles bookmarked. You can now use the Listen feature to make your way through that list faster. Speechify also allows you to change your listening speed. Some users listen to articles at 2-3x the normal listening speed. You can listen to articles at up to 4.5x the normal speed. Speed listening is a productivity hack for many, and we’re excited to make it easier for you.
+A Tool for Proofreading
+We’ve heard that writers find the Listen feature helpful when they’re proofreading their drafts. Sentences often sound different when you read them out loud, and we’re excited to help our community of creators improve the stories they bring to life. To listen to one of your drafts, you can click the “…” button in Medium’s web editor, then select “share draft link,” visit that link yourself, and click the Listen button.
+Making Reading Easy
+By some estimates, one in five people faces dyslexia, which can make traditional reading difficult. Many people also have visual impairment. Through our listening option, we aim to lower the barrier to learning and delight across Medium.
+How You Can Listen to Medium with Speechify
+You can find the Listen button at the top of a Medium story. When you press this button via web browser, as a logged-in Medium member, the story text is read to you and you’ll see the words highlighted as you go.
+We all have our own tastes. If you’d like to listen to a voice other than the default option, you can select a new one by clicking the voice button in the bottom left corner.
+In the bottom right corner, you can click the speed button to adjust the playback speed from 0.5x to 4.5x.

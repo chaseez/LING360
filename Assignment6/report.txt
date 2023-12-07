@@ -1,0 +1,77 @@
+Here are the top 5 words for each register genre
+
+For HI
+1.one, 697
+2.make, 604
+3.get, 541
+4.time, 521
+5.people, 512
+
+For ID
+1.would, 786
+2.like, 783
+3.one, 681
+4.get, 631
+5.people, 587
+
+For IN
+1.one, 1539
+2.also, 1380
+3.first, 1245
+4.new, 1245
+5.states, 1141
+
+For IP
+1.book, 1014
+2.one, 565
+3.nov, 528
+4.like, 395
+5.pm, 391
+
+For LY
+1.like, 632
+2.love, 611
+3.know, 541
+4.time, 433
+5.one, 416
+
+For NA
+1.said, 830
+2.people, 489
+3.would, 471
+4.one, 459
+5.like, 305
+
+For OP
+1.people, 1443
+2.would, 1272
+3.like, 1227
+4.one, 1217
+5.think, 866
+
+For SP
+1.think, 176
+2.like, 170
+3.really, 137
+4.would, 120
+5.one, 97
+
+Key:
+HI: How-to/Instructional
+ID: Interactive Discussion
+IN: Informational (Wikipedia)
+IP: Informational Persuasion
+LY: Song Lyrics
+NA: News reports
+OP: Opinion blogs
+SP: Interview transcripts
+
+-------------- Report -----------------------
+
+There was a single word that popped up in the top 5 of every frequency list: the word "one".
+- This makes sense because "one" is a very common word that can be used in any situation.
+
+There was also one word that popped up in the top 5 of all but the frequency list for IN: the word "like".
+- This also makes sense because "like" is a very common filler word and used to for similes. However, in 
+- Informational websites don't use it as much becuase of the content being more factual and straight forward.
+

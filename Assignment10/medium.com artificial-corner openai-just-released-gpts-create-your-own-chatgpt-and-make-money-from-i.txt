@@ -1,0 +1,13 @@
+OpenAI Just Released GPTs: Create Your Own ChatGPT And Make Money From It (No Coding Required)
+We’re about to see the App Store for AI.
+OpenAI just introduced GPTs. These are custom versions of ChatGPT that anyone can build on their own for a specific purpose.
+The best thing about them? No coding is required to build them.
+Creating your own GPT is as easy as starting a conversation with ChatGPT and you can make it for yourself, for your company, or for everyone (with the chance to even make money in the official GPT store)
+I know all this sounds too good to be true, so let’s dive in and see all about GPTs in more detail.
+GPTs combine the best of Custom Instructions and Plugins
+Custom instructions is a ChatGPT feature that was introduced back in July with the purpose of generating better responses based on information about us and how we’d like ChatGPT to respond.
+Custom instructions helped us control ChatGPT to some degree, but it wasn’t enough to produce our own ChatGPT and it wasn’t possible to save multiple custom instructions either.
+GPTs take all this to the next level.
+GPTs are a combination of instructions, extra knowledge, and any combination of skills (web browsing, DALL-E 3, code interpreter). Here’s a picture of what it looks like to create a GPT.
+Besides the instructions section we’re familiar with, there’s a knowledge section where we can upload files to customize our GPT even further and the capabilities section where we can enable features for our GPT such as web browsing, DALL-E 3, and the code interpreter.
+Once you create your GPT you can share it with the world in the GPT Store that will roll out later in November and make money from it based on how many people are using your GPT (at least that’s what OpenAI says).

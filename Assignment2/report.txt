@@ -1,0 +1,15 @@
+Initial Information
+- Regex pattern:
+-- r'\w+(?:ing|or|er|ee|tion|sion|ment|ence|ance)\b'
+- Precision:
+-- 0.9444444444444444
+- Recall:
+-- 0.4358974358974359
+
+Modified Information
+- Regex pattern:
+-- r'\w{4,}(?:ing|or|er|ee|tion|sion|ment|ence|ance)s?\b'
+- Precision:
+-- 1.0
+- Recall:
+-- 0.4

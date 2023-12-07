@@ -1,0 +1,22 @@
+How to Make Web Crawling Fast and Accurate with Scrapy?
+Overview
+When it comes to data gathering, web scraping plays an instrumental role in getting us a good amount and variety of data from the internet. For data science enthusiasts, the amount of data available through the Web is like water in the ocean. For instance, you are making your mind up to buy some product through an online platform — how would it be if you scrape eCommerce sites and pull the review for the same product from the buyers! The use cases are infinite.
+By the time this article gets completed, you would know scraping using Scrapy framework and would have scrapped multiple websites — let’s get through the article!
+Overview of Scrapy
+Scrapy is a python based web scraping framework used to extract the data you need from websites. In a fast, simple, yet extensible way.
+Getting started with Scrapy
+Before getting started, just make sure you have python installed in your system. By writing “python” in your cmd you can check whether it is successfully installed or not.
+allowed_domains: List of urls which have to be only followed by our spider.
+parse(self, response): On successful scraping, this function gets called and through the response object we can extract all the data we want from the web of the given url.
+Scraping a website using Scrapy
+Here is a website Quotes to Scrape, typically used for the purpose to learn scraping. And, we would scrape the same.
+From the mentioned site I want to scrape all the quotes and their author names. Henceforth, I have created the following XPath in my parse function. XPath: XPath is nothing but the address of a specific HTML element.
+Here, I have written the name of my spider “QuotesScraper”. In your case, it would be different. Now, in our terminal, we can see all scraped quotes with their author name.
+Now it is the time to see how Scrapy is different from other web scraping tools. In Scrapy, using a single line of command we can extract all the scraped data in the form of json, xml and csv file. To exemplify, if we want the same scraped data in csv format. All we need to do is just perform the following command.
+$ Scrapy crawl SpiderName -O FileName.Format(csv,xml,json)
+In my case, I want all the data in csv format. So, it would be something like this.
+$ Scrapy crawl QuotesScraper ScrapedQuotes.csv
+As a result, I got a file named “ScrapedQuotes.csv” in my current directory of Scrapy project which looks something like this.
+Apart from this, Scrapy facilitates many different functionalities, such as following other links, logging forms in with csrf(cross site request forgery), bypassing restrictions using user-agents and proxies; disobedience of robots, etc. which all can be learnt through Documentation of it.
+Conclusion
+To sum up, although there are myriad web crawling tools available in today’s world, Scrapy offers tremendous benefits as compared to others which can really be a boon for us to crawl websites. In a fast, simple, yet extensible way.

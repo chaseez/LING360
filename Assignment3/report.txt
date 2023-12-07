@@ -1,0 +1,30 @@
+Next, write a short report in which you reflect on the process of creating the regular expression to match
+ the words of your choice.
+
+Was it difficult? Easy?
+- It was relatively easy because I have some experience with regex, so I wanted to try out groupings and using call backs.
+- That process took some testing to get correct, but was not difficult to debug.
+What did you learn or remember about regular expressions? Etc.
+- How to call back to groupings
+
+I used file io to get the input and this is how it displays after running all the regex patterns for each word
+
+Here's the regex: ^[bcdfghjklmnpqrstvwxyz]{2}\w+$
+It matched 109 words!
+Here are the words: ['the', 'why', 'prompt', 'why', 'school', 'prompts', 'created', 'prompts', 'their', 'school', 'while', 'that', 'their', 'schools', 'while', 'prepared', 'the', 'why', 'school', 'school', 'what', 'the', 'school', 'specifically', 'the', 'school', 'the', 'they', 'they', 'the', 'specific', 'why', 'school', 'them', 'knowledgeable', 'their', 'school', 'brainstorming', 'thing', 'know', 'what', 'this', 'school', 'the', 'specifics', 'the', 'school', 'that', 'show', 'that', 'school', 'that', 'their', 'student', 'the', 'that', 'the', 'when', 'what', 'when', 'school', 'that', 'starts', 'stop', 'the', 'treart', 'there', 'structure', 'that', 'style', 'why', 'this', 'school', 'why', 'this', 'what', 'this', 'school', 'why', 'why', 'this', 'school', 'training', 'specific', 'students', 'the', 'the', 'statement', 'them', 'the', 'statement', 'why', 'show', 'this', 'true', 'specific', 'what', 'the', 'school', 'students', 'knowledgeable', 'the', 'school', 'their', 'school', 'there', 'club', 'the', 'that']
+
+Here's the regex: ^\w+([bcdfghjklmnpqrstvwxyz])\1\w*$
+It matched 33 words!
+Here are the words: ['all', 'will', 'will', 'mission', 'specifically', 'admissions', 'committees', 'assume', 'essays', 'correspondingly', 'digging', 'well', 'community', 'following', 'hannah', 'allegedly', 'curriculum', 'commonly', 'fall', 'pitfall', 'discussing', 'mission', 'mission', 'discuss', 'well', 'will', 'acceptance', 'admissions', 'committees', 'accepting', 'willing', 'enthusiastically', 'curriculum']
+
+Here's the regex: ^\w+([aeiou])\1\w*$
+It matched 23 words!
+Here are the words: ['school', 'school', 'schools', 'school', 'school', 'school', 'school', 'committees', 'school', 'school', 'school', 'school', 'school', 'deep', 'school', 'school', 'school', 'school', 'school', 'likelihood', 'committees', 'school', 'school']
+
+Here's the regex: ^\w*hat\w*$
+It matched 13 words!
+Here are the words: ['that', 'what', 'what', 'that', 'that', 'that', 'that', 'what', 'that', 'that', 'what', 'what', 'that']
+
+Here's the regex: ^(\w)(\w)\w+\2\1$
+It matched 7 words!
+Here are the words: ['remember', 'starts', 'hannah', 'reporter', 'treart', 'students', 'students']
