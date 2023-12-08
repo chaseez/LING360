@@ -1,0 +1,26 @@
+Which feature, if any, correlates with number of stars? In which direction (positive or negative correlation)?
+- Both features correlate with the number of stars.
+- - For adverbs, there is a negative correlation. Meaning, the higher the stars, the less adverbs there are.
+- - For sentiment, there is a positive correlation. Meaning, for the higher stars, there language is more positive
+
+Why do you think this happens?
+- I think this happens for adverbs because for low star reviews, people tend to say exactly what's on their mind and
+- tend to use more descriptive language. On the flip side, most high star reviews are simple and straight to the point.
+
+- For sentiment, I think this is a logical correlation. The lower star ratings have negative things to say
+- about the product and the higher star ratings have positive things to say about the product.
+
+Do the results confirm or disconfirm what you thought would be the case (your hypothesis)?
+- Yes, the results confirm my hypothesis because I thought, at first, that the word "not" and other negation words
+- are typically negative. Also, it makes sense for more positive sentiment polarity for better ratings because
+- people are saying good things about the product
+
+Also, take a sample of the dataset (20 or so reviews) and measure precision and recall of the regular expressions you used to find the linguistic features. Report those measurements for each linguistic feature.
+
+Adverbs
+- Precision: 0.96
+- Recall: 1.00
+
+Sentiment Analysis:
+- I'm not sure how to measure this since it is calculated by the class, but the results seem
+- accurate for the samples I pulled from
